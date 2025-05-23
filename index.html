@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Gaming Goliaths CS2413 Final Project:: Home by Ashley Stuart</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="goliaths.css">
+    <link rel="stylesheet" href="goliathsMedia.css">
+    <link rel="stylesheet" href="goliathsPrint.css">
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "275px";
+            document.getElementById("main").style.marginLeft = "275px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+
+</head>
+<body>
+    <!----------- Navigation Section ------------>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <center><a href="index.html"><img src="images/homeController.png" onmouseover="this.src='images/homeOver.png'" onmouseout="this.src='images/homeController.png'" alt="Controller" height="112" width="192"></a></center>
+        <br><br>
+        <center><a href="usa.html"><img src="images/usaButton.png" onmouseover="this.src='images/usaButtonOver.png'" onmouseout="this.src='images/usaButton.png'" style="width: 192px; height: 48px;" alt="" /></a></center>
+        <br><br>
+        <center><a href="japan.html"><img src="images/japanButton.png" onmouseover="this.src='images/japanButtonOver.png'" onmouseout="this.src='images/japanButton.png'" style="width: 192px; height: 48px;" alt="" /></a></center>
+        <br><br>
+        <center><a href="survey.html"><img src="images/surveyButton.png" onmouseover="this.src='images/surveyButtonOver.png'" onmouseout="this.src='images/surveyButton.png'" style="width: 192px; height: 48px;" alt="" /></a></center>
+
+    </div>
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+    </div>
+
+    <!------------ Header Section -------------->
+    <div id="wrapperHeader">
+        <header>
+            <a href="index.html"><img src="images/banner-edit.png" alt="Gaming Goliaths Title Banner"></a>
+        </header>
+    </div>
+        <!------------ Main Section ----------------->
+    <div id="wrapperHome">
+        <main>
+            <h2>Video Games are for EVERYONE</h2>
+            <img src="images/USA-Japan.png" alt="USA vs Japan" height="auto" width="auto" class="imgCenter">
+            <div id="infoCenter">
+                <center>
+                    <p>
+                        Video games are one of the most popular and beloved pastimes. <br><br>
+                        It is honestly no surprise that so many people around the world choose to play video games.<br><br>
+                        Now that the two of leading countries of video gaming are at this center stage...<br>
+                    </p>
+                    <h3>Just How Different Are They?</h3>
+                </center>
+            </div>
+        </main>
+        <!------------ Footer Section -------------->
+        <div id="navBottom">
+            <a href="index.html">Home</a>&nbsp;♦&nbsp;
+            <a href="usa.html">USA</a>&nbsp;♦&nbsp;
+            <a href="withJapan.html">USA's POV</a>&nbsp;♦&nbsp;
+            <a href="japan.html">Japan</a>&nbsp;♦&nbsp;
+            <a href="withUSA.html">Japan's POV</a>&nbsp;♦&nbsp;
+            <a href="survey.html">Survey</a>&nbsp;
+        </div>
+        <div class="copyRight">
+            <small>
+                <br>Copyright &copy; Gaming Goliaths <br>
+                <a href="mailto:ashley@stuart.com">ashley@stuart.com</a>
+            </small>
+            <script>
+                document.write("<p>This document was last modified on: ");
+                document.write(document.lastModified);
+                document.write("</p>");
+            </script>
+        </div>
+    </div>
+</body>
+</html>

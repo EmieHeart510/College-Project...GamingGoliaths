@@ -1,0 +1,135 @@
+﻿/*--------------------------------------------------------
+    i. Project Name: Gaming Goliaths: USA vs Japan
+    ii. Author: Ashley Stuart 
+    iii. Version: 10.0
+    iv. Last Changed: October 12, 2024
+----------------------------------------------------------*/
+/**********************************************************
+                     Print Media Query
+***********************************************************/
+          
+@media print {
+    /*------------------ Entire Webpage ----------------------*/
+    body {
+        background-image: none;
+        background-color: none;
+        color: #000712;
+        font-family: Georgia;
+    }
+
+    header, nav, main, footer {
+        display: block;
+    }
+    /*------------------ Header ------------------------------*/
+    header img {
+        width: 100%;
+    }
+
+    h1 {
+        border-style: solid;
+        border-color: #000712;
+        line-height: 215%;
+        text-align: center;
+        height: 72px;
+        margin-bottom: 0;
+    }
+    /*------------------- Nav ---------------------------*/
+    .sidebar {
+        display: none;
+    }
+
+        .sidebar .closebtn {
+            display: none;
+        }
+
+    .openbtn {
+        display: none;
+    }
+
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+    }
+    /*------------------- Main -------------------------------*/
+
+    .imgCenter {
+        display: none;
+    }
+
+    .imgLeft {
+        display: none;
+    }
+
+    .imgRight {
+        display: none;
+    }
+
+    /*------------------ Wrapper -----------------------------*/
+
+    #wrapperHome {
+        background-image: none;
+        background-color: none;
+        min-width: 0;
+        width: 95%;
+        min-height: 90vh;
+        max-height: 90vh;
+        border: none;
+    }
+
+    #wrapperUSA {
+        background-image: none;
+        background-color: none;
+        min-width: 0;
+        width: 95%;
+        min-height: 165vh;
+        max-height: 165vh;
+        border: none;
+    }
+
+    #wrapperJapan {
+        background-image: none;
+        background-color: none;
+        min-width: 0;
+        width: 95%;
+        min-height: 175vh;
+        max-height: 175vh;
+        border: none;
+    }
+
+    #wrapperPOV1 {
+        background-image: none;
+        background-color: none;
+        min-width: 0;
+        width: 95%;
+        min-height: 110vh;
+        max-height: 110vh;
+        border: none;
+    }
+
+    #wrapperPOV2 {
+        background-image: none;
+        background-color: none;
+        min-width: 0;
+        width: 95%;
+        min-height: 96vh;
+        max-height: 96vh;
+        border: none;
+    }
+
+    #wrapperSurvey {
+        background-image: none;
+        background-color: none;
+        min-width: 0;
+        width: 95%;
+        min-height: 90vh;
+        max-height: 90vh;
+        border: none;
+    }
+    /*------------------ Survey Page --------------------------*/
+    .surveySection {
+        border-top: none;
+        border-bottom: none;
+        background-color: #FFFFFF;
+    }
+}
+

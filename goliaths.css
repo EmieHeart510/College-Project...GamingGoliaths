@@ -1,0 +1,324 @@
+﻿/*--------------------------------------------------------
+    i. Project Name: Gaming Goliaths: USA vs Japan
+    ii. Author: Ashley Stuart 
+    iii. Version: 11.0
+    iv. Last Changed: May 22, 2025
+   
+    v. Reference Table
+       i. Colors:
+            #0047ab (Cobalt Blue): Background color, Button color
+            #000712 (Dark Navy): Font color, Border color, Button color
+            #4592ff (Light Pale Blue): Background
+            #FFFFFF (White): Button text,
+            rgba(255, 255, 248, 0.9): Wrapper background
+            #565656 (Gray): Box-shadow
+            
+
+       ii. Typography:
+            Georgia: Body, Headers
+           
+----------------------------------------------------------*/
+/*------------------ Entire Webpage ----------------------*/
+body {
+    background-image: url(images/background.png);
+    background-attachment: fixed;
+    background-size: 200px 112px;
+    color: #000712;
+    font-family: Georgia;
+}
+header, nav, main, footer {
+    display: block;
+}
+
+/*------------------ Header ------------------------------*/
+header{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h1 {
+    border-style: solid;
+    border-color: #000712;
+    line-height: 215%;
+    text-align: center;
+    height: 72px;
+    margin-bottom: 0;
+}
+
+/*------------------- Nav ---------------------------*/
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 248, 0.9);
+    border-right: 5px solid #000712;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    color: #0047ab;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #000712;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: none;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+/*------------------- Main -------------------------------*/
+
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 5px;
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 5px;
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    clear: both;
+}
+h4{
+    padding-top: 15px;
+    clear: both;
+    text-align: center;
+}
+.imgCenter {
+    align-content: center;
+    box-shadow: 8px 7px 4px #565656;
+    border: 5px solid #000712;
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.imgLeft {
+    box-shadow: 8px 7px 4px #565656;
+    border: 5px solid #000712;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 30px;
+    margin-left: 30px;
+    float: left;
+}
+.imgRight {
+    box-shadow: 8px 7px 4px #565656;
+    border: 5px solid #000712;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 30px;
+    float: right;
+}
+#infoCenter {
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+p {
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    width: 100%;
+}
+
+
+#clear {
+    clear:both;
+}
+
+/*------------------- Footer -----------------------------*/
+
+.copyRight {
+    clear: both;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#navBottom {
+    padding-top: 30px;
+    clear: both;
+    text-align: center;
+}
+/*------------------ Copy Right --------------------------*/
+i {
+    color: #FFFFFF;
+    float: right;
+    text-align: center;
+    padding-right: 90px;
+    padding-bottom: 10px;
+}
+/*------------------ Wrapper -----------------------------*/
+
+#wrapperHeader {
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 700px;
+    max-width: 1070px;
+}
+#wrapperHeader img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#wrapperHome {
+    background-color: rgba(255, 255, 248, 0.9);
+    border: 5px solid #000712;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    min-width: 700px;
+    max-width: 1024px;
+}
+#wrapperUSA {
+    background-color: rgba(255, 255, 248, 0.9);
+    border: 5px solid #000712;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    min-width: 700px;
+    max-width: 1024px;
+    width: 100%;
+}
+#wrapperJapan {
+    background-color: rgba(255, 255, 248, 0.9);
+    border: 5px solid #000712;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    min-width: 700px;
+    max-width: 1024px;
+    width: 75%;
+}
+#wrapperPOV1 {
+    background-color: rgba(255, 255, 248, 0.9);
+    border: 5px solid #000712;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    min-width: 700px;
+    max-width: 1024px;
+    width: 75%;
+}
+#wrapperPOV2 {
+    background-color: rgba(255, 255, 248, 0.9);
+    border: 5px solid #000712;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    min-width: 700px;
+    max-width: 1024px;
+    width: 75%;
+}
+#wrapperSurvey {
+    background-color: rgba(255, 255, 248, 0.9);
+    border: 5px solid #000712;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    min-width: 700px;
+    max-width: 1024px;
+    width: 75%;
+}
+/*------------------ Survey Page --------------------------*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 3px solid #000712;
+    box-sizing: border-box;
+    resize: vertical;
+}
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 3px solid #000712;
+    box-sizing: border-box;
+    resize: vertical;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #0047ab;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: solid 2px #000712;
+    cursor: pointer;
+    float: right;
+}
+input[type=reset] {
+    background-color: #0047ab;
+    color: #FFFFFF;
+    margin-right: 5px;
+    padding: 12px 20px;
+    border: solid 2px #000712;
+    cursor: pointer;
+    float: right;
+}
+
+.surveySection {
+    margin-top: 30px;
+    border-top: solid 4px #000712;
+    border-bottom: solid 4px #000712;
+    background-color: #4592ff;
+    padding: 50px;
+}
+
+.colOne {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.colTwo {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+

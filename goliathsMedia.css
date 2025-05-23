@@ -1,0 +1,196 @@
+﻿/*--------------------------------------------------------
+    i. Project Name: Gaming Goliaths: USA vs Japan
+    ii. Author: Ashley Stuart 
+    iii. Version: 10.0
+    iv. Last Changed: October 12, 2024
+           
+----------------------------------------------------------*/
+/**********************************************************
+                    Tablet Media Query
+***********************************************************/
+@media only screen and (max-width:1024px) {
+    /*------------------- Nav ---------------------------*/
+    .sidebar {
+        display: none;
+    }
+
+    .sidebar .closebtn {
+        display: none;
+    }
+
+    .openbtn {
+        display: none;
+    }
+    /*--------------------- Header ----------------------------*/
+    header img {
+        width: 100%;
+    }
+
+    /*------------------ Survey Page --------------------------*/
+    .surveySection {
+        border-top: none;
+        border-bottom: none;
+        background-color: rgba(255, 255, 248, 0.9);
+        padding: 5px;
+    }
+
+    .colOne, .colTwo, input[type=submit], input[type=reset] {
+        width: 100%;
+        margin: 2px;
+    }
+    /*------------------ Wrapper -----------------------------*/
+   #wrapperHeader {
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 700px;
+    max-width: 1070px;
+}
+#wrapperHeader img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#wrapperHome {
+    background-color: rgba(255, 255, 248, 0.9);
+    border: 5px solid #000712;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 700px;
+    max-width: 1024px;
+}
+#wrapperUSA {
+    background-color: rgba(255, 255, 248, 0.9);
+    border: 5px solid #000712;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    min-width: 700px;
+    max-width: 1024px;
+    width: 100%;
+}
+#wrapperJapan {
+    background-color: rgba(255, 255, 248, 0.9);
+    border: 5px solid #000712;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    min-width: 700px;
+    max-width: 1024px;
+    width: 75%;
+}
+#wrapperPOV1 {
+    background-color: rgba(255, 255, 248, 0.9);
+    border: 5px solid #000712;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    min-width: 700px;
+    max-width: 1024px;
+    width: 75%;
+}
+#wrapperPOV2 {
+    background-color: rgba(255, 255, 248, 0.9);
+    border: 5px solid #000712;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    min-width: 700px;
+    max-width: 1024px;
+    width: 75%;
+}
+#wrapperSurvey {
+    background-color: rgba(255, 255, 248, 0.9);
+    border: 5px solid #000712;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    min-width: 700px;
+    max-width: 1024px;
+    width: 75%;
+}
+/**********************************************************
+                  Smartphone Media Query
+***********************************************************/
+@media only screen and (max-width: 768) {
+
+    /*------------------- Nav ---------------------------*/
+    .sidebar {
+        display: none;
+    }
+
+        .sidebar .closebtn {
+            display: none;
+        }
+
+    .openbtn {
+        display: none;
+    }
+
+    /*--------------------- Header ----------------------------*/
+    header img {
+        width: 100%;
+    }
+
+    /*------------------ Survey Page --------------------------*/
+    .surveySection {
+        border-top: none;
+        border-bottom: none;
+        background-color: rgba(255, 255, 248, 0.9);
+        padding: 5px;
+    }
+
+    .colOne, .colTwo, input[type=submit], input[type=reset] {
+        width: 100%;
+        margin: 2px;
+    }
+    /*------------------ Wrapper -----------------------------*/
+    #wrapperHome {
+        min-height: 57vh;
+        max-height: 57vh;
+        min-width: 700px;
+        max-width: 1024px;
+        width: 100%;
+    }
+
+    #wrapperUSA {
+        min-height: 206vh;
+        max-height: 206vh;
+        min-width: 700px;
+        max-width: 1024px;
+        width: 100%;
+    }
+
+    #wrapperJapan {
+        min-height: 207vh;
+        max-height: 207vh;
+        min-width: 700px;
+        max-width: 1024px;
+        width: 100%;
+    }
+
+    #wrapperPOV1 {
+        min-height: 165vh;
+        max-height: 165vh;
+        min-width: 700px;
+        max-width: 1024px;
+        width: 100%;
+    }
+
+    #wrapperPOV2 {
+        min-height: 160vh;
+        max-height: 160vh;
+        min-width: 700px;
+        max-width: 1024px;
+        width: 100%;
+    }
+
+    #wrapperSurvey {
+        min-height: 85vh;
+        max-height: 85vh;
+        min-width: 700px;
+        max-width: 1024px;
+        width: 100%;
+    }
+}
+
