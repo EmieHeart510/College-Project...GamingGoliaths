@@ -198,7 +198,7 @@ i {
     height: 100%;
     object-fit: cover;
 }
-#wrapperHome {
+#wrapper {
     background-color: rgba(255, 255, 248, 0.9);
     border: 5px solid #000712;
     margin-left: auto;
@@ -206,56 +206,6 @@ i {
     height: auto;
     min-width: 700px;
     max-width: 1024px;
-}
-#wrapperUSA {
-    background-color: rgba(255, 255, 248, 0.9);
-    border: 5px solid #000712;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    min-width: 700px;
-    max-width: 1024px;
-    width: 100%;
-}
-#wrapperJapan {
-    background-color: rgba(255, 255, 248, 0.9);
-    border: 5px solid #000712;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    min-width: 700px;
-    max-width: 1024px;
-    width: 75%;
-}
-#wrapperPOV1 {
-    background-color: rgba(255, 255, 248, 0.9);
-    border: 5px solid #000712;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    min-width: 700px;
-    max-width: 1024px;
-    width: 75%;
-}
-#wrapperPOV2 {
-    background-color: rgba(255, 255, 248, 0.9);
-    border: 5px solid #000712;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    min-width: 700px;
-    max-width: 1024px;
-    width: 75%;
-}
-#wrapperSurvey {
-    background-color: rgba(255, 255, 248, 0.9);
-    border: 5px solid #000712;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    min-width: 700px;
-    max-width: 1024px;
-    width: 75%;
 }
 /*------------------ Survey Page --------------------------*/
 input[type=text], select, textarea {
